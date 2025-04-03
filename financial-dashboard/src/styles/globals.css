@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Dark mode styling */
+.dark {
+  background-color: #121212; /* Dark background */
+  color: white;
+}
+
+/* Navbar Dark Mode */
+.dark .navbar {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Card Dark Mode */
+.dark .card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
